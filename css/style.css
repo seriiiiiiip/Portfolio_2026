@@ -67,7 +67,17 @@ li,
 ol {
   list-style: none;
 }
-
+button{
+  background:none;
+  border:1px solid #fff;
+  padding:4px 12px;
+  border-radius: 50px;
+  font-size:14px;
+}
+button:hover{
+  opacity:0.5;
+  transition:0.5s;
+}
 #wrap {
   position: relative;
   width: 100%;
@@ -258,6 +268,11 @@ nav ul li:hover {
   grid-template-columns: 1.1fr 0.9fr;
   align-items: center;
   gap: 120px;
+}
+.case-text button{
+   display: inline-flex;
+  align-items: center;  
+  gap:0.5rem;
 }
 .case-menu {
   display: grid;
