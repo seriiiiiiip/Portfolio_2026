@@ -245,10 +245,19 @@ nav ul li:hover {
   align-items: center;
   gap: 120px;
 }
-.case-text button a {
+.case-text a {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+   background: none;
+  border: 1px solid #fff;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.case-text a:hover{
+  transition: 0.5s;
+  opacity:0.5;
 }
 .case-menu {
   display: grid;
